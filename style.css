@@ -65,4 +65,10 @@ code pre {
   main {
     overflow-y: unset;
   }
+
+  code pre {
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+  }
 }
